@@ -89,3 +89,10 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <leader>w <C-w>v<C-w>l
+
+"Gundo
+nnoremap <leader>u :GundoToggle<CR>
+
+"Spellchecking
+nmap <silent> <leader>s :set spell!<CR>
+set spelllang=fr

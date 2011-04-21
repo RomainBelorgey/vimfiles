@@ -96,3 +96,7 @@ nnoremap <leader>u :GundoToggle<CR>
 "Spellchecking
 nmap <silent> <leader>s :set spell!<CR>
 set spelllang=fr
+
+"Grammar checking
+"let g:languagetool_jar=$HOME . '/languagetool/LanguageTool.jar'
+let g:languagetool_jar='/var/tmp/languagetool/dist/LanguageTool.jar'

@@ -80,6 +80,8 @@ inoremap jj <ESC>
 
 "functions with leader
 nnoremap <leader>1 yypVr=
+nnoremap <leader>2 yypVr-
+nnoremap <leader>3 yypVr^
 nnoremap <leader>v V`]
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 

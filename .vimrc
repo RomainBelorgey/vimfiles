@@ -82,8 +82,12 @@ inoremap jj <ESC>
 nnoremap <leader>1 yypVr=
 nnoremap <leader>2 yypVr-
 nnoremap <leader>3 yypVr^
+nnoremap <leader>4 yypVr"
 nnoremap <leader>v V`]
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
+
+"Set paste no paste
+nmap <silent> <leader>p :set paste!<CR>
 
 "Move between windows easilly
 nnoremap <C-h> <C-w>h
